@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        declare-styleable标签声明使用自定义属性
+        name属性确定引用名称
+        <attr>标签声明具体的自定义属性，比如字体、大小、颜色、背景
+        format属性指定自定义属性的类型
+     -->
+    <declare-styleable name="TopBar">
+        <attr name="title_1" format="string"/>
+        <attr name="titleTextSize" format="dimension"/>
+        <attr name="titleTextColor_1" format="color"/>
+        <attr name="leftTextColor" format="color"/>
+        <attr name="leftBackground" format="reference|color"/>
+        <attr name="leftText" format="string"/>
+        <attr name="rightTextColor" format="color"/>
+        <attr name="rightBackground" format="integer|color"/>
+        <attr name="rightText" format="string"/>
+    </declare-styleable>
+</resources>
